@@ -1,0 +1,282 @@
+body {
+    /* font-family: 'Acronym-Bold'; */
+}
+.text-gray {
+    color: #AEAEAE;
+}
+
+.text-dark-gray {
+    color: #1F1F1F;
+}
+
+.text-red {
+    color: #F53434;
+}
+
+.text-green {
+    color: #41CC61;
+}
+
+.text-blue {
+    color: #10357A;
+}
+
+.text-light-black {
+    color: #828282;
+}
+
+.text-light-blue {
+    color: #D0E7FF;
+}
+
+.text-dark-black {
+    color: #303030;
+}
+
+.text-paste {
+    color: #05B3B4;
+}
+
+.bg-blue {
+    background: #10357A;
+}
+
+.text-sky {
+    color: #488AC9;
+}
+
+.text-dark-sky {
+    color: #276CA8;
+}
+
+.text-dark-black {
+    color: #626262;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+
+.br-9 {
+    border-radius: 9px;
+}
+
+.br-17 {
+    border-radius: 17px;
+}
+
+.br-40 {
+    border-radius: 40px;
+}
+
+.p-7 {
+    padding: 65px;
+}
+
+.mt-9 {
+    margin-top: 100px;
+}
+
+.mt-10 {
+    margin-top: 120px;
+}
+
+.mt-12 {
+    margin-top: 150px !important;
+}
+
+.mt-13 {
+    margin-top: 190px !important;
+}
+
+.w-90 {
+    /* width: 90%; */
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.content-width {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.border-section {
+    height: 3px;
+    background: transparent linear-gradient(90deg, #D00E2E 0%, #800650 26%, #30AED5 64%, #63BA7F 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.banner-section {
+    background: #FAFCFF;
+}
+
+.banner-left {
+    background-image: url('../img/banner.png');
+    background-size: 100% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.cart-button {
+    background: #1AB954 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 13px;
+}
+
+.content-section-1-border {
+    border: 2px solid #EAEAEA;
+    border-radius: 20px;
+}
+
+.content-1-title-text {
+    color: #05B3B4;
+}
+
+.content-1-large-title-text {
+    font-size: 33px;
+    line-height: 45px;
+}
+
+.content-section-2 {
+    background: #488AC9;
+}
+
+.content-section-2 .box-content {
+    border:3px solid #fff;
+}
+
+.mesurement-img-class {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 250px;
+}
+
+.mesurement-scale-class {
+    position: absolute;
+    bottom: -100px;
+    left: 85px;
+    width: 200px;
+}
+
+
+.fatbody-img-class {
+    width: 85% !important;
+    height: 90% !important;
+    border-radius: 30px;
+}
+
+.stomach-img-class {
+    position: absolute;
+    right: 0px;
+    top: -125px;
+    width: 180px;
+}
+
+.content-section-4 {
+    background: #F5FAFF;
+}
+
+.content-section-6 {
+    background: #488AC9;
+}
+
+.content-section-6-inner-bg{
+    background: #3E75AA;
+}
+
+.nextgen-body-cleanse-img-class {
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+    top: -260px;
+    width: 400px;
+    /* margin: 0 auto; */
+}
+
+.sleep-img-class {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px;
+    top: -200px;
+}
+
+.business-man-img-class {
+    width: 300px;
+}
+
+.content-section-9-nextgen-img-class {
+    position: absolute;
+    left: 205px;
+    width: 300px;
+    top: 80px;
+}
+
+.sleeping-man-img-class {
+    width: 300px;
+}
+
+.reduces-bloating-img-class {
+    position: absolute;
+    left: 250px;
+    width: 240px;
+    top: -50px;
+}
+
+.content-section-10 {
+    background-color: #6B98C5;
+}
+
+.content-section-11 {
+    background-color: #FAFAFA;
+}
+
+.content-section-12 {
+    background-color: #FEFEFE;
+}
+
+.cascara-tree-img-class {
+    position: absolute;
+    right: 20px;
+}
+
+.letter-spacing-negative {
+    letter-spacing: -1.5px;
+}
+
+.content-section-13 {
+    background-color: #FBFDFF;
+}
+
+.klipartz-img-class {
+    position: absolute;
+    right: 10px;
+}
+
+.content-section-14 {
+    background-color: #FAFCFF;
+}
+
+
+/* Responsive Design Start */
+
+@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (min-width: 1100px) {
+}
