@@ -56,6 +56,11 @@ body {
 .fs-14 {
     font-size: 14px;
 }
+
+.fs-16 {
+    font-size: 16px;
+}
+
 .fs-19 {
     font-size: 19px;
 }
@@ -76,6 +81,10 @@ body {
     padding: 65px;
 }
 
+.ps-12 {
+    padding: 10px 13px !important;
+}
+
 .mt-9 {
     margin-top: 100px;
 }
@@ -92,12 +101,12 @@ body {
     margin-top: 190px !important;
 }
 
-.w-90 {
-    /* width: 90%; */
-}
-
 .fw-400 {
     font-weight: 400;
+}
+
+.custom-arial-font {
+    font: normal normal normal 19px/25px Arial;
 }
 
 .content-width {
@@ -105,12 +114,15 @@ body {
     margin: 0 auto;
 }
 
+/* Border Section */
 .border-section {
     height: 3px;
     background: transparent linear-gradient(90deg, #D00E2E 0%, #800650 26%, #30AED5 64%, #63BA7F 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+
+/* Banner Section */
 .banner-section {
     background: #FAFCFF;
 }
@@ -129,6 +141,7 @@ body {
     border-radius: 13px;
 }
 
+/* Content Section 1 */
 .content-section-1-border {
     border: 2px solid #EAEAEA;
     border-radius: 20px;
@@ -143,13 +156,19 @@ body {
     line-height: 45px;
 }
 
+/* Content Section 2 */
 .content-section-2 {
     background: #488AC9;
 }
 
+.content-section-2-left-box {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .content-section-2 .box-content {
     border:3px solid #fff;
-}
+} 
 
 .mesurement-img-class {
     position: absolute;
@@ -165,6 +184,19 @@ body {
     width: 200px;
 }
 
+.mesurement-scale-mobile-class {
+    position: absolute;
+    left: 10px;
+    width: 200px;
+    top: -150px;
+}
+
+.mesurement-img-mobile-class {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 250px;
+}
 
 .fatbody-img-class {
     width: 85% !important;
@@ -197,7 +229,6 @@ body {
     z-index: 1;
     top: -260px;
     width: 400px;
-    /* margin: 0 auto; */
 }
 
 .sleep-img-class {
@@ -269,14 +300,331 @@ body {
 
 /* Responsive Design Start */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 399px) {
+    /* Banner Section */
+    .banner-left {
+        min-height: 380px !important;
+    }
+
+    /* Content Section 1 */
+    .content-section-1-border {
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    /* Content Section 2 */
+    .content-section-2-left-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-section-2 .p-7 {
+        padding: 15px;
+    }
+
+    .content-section-2 .pt-md-7 {
+        padding-top: 0px !important;
+    }
+
+    .position-md-size-absolute {
+        position: absolute;
+        top: -100px;
+    }
+
+    .positive-thinking-mobile-div {
+        text-align: center;
+    }
+
+    /* Content Section 4 */
+    .table-circle-img {
+        width: 250px;
+    }
+
+    
+    /* Content Section 6 */
+    .nextgen-body-cleanse-img-class {
+        position: absolute;
+        left: 120px;
+        z-index: 1;
+        top: -130px;
+        width: 180px;
+    }
+
+    .sleep-img-class {
+        width: 250px;
+        top: -120px;
+    }
+
+    .content-section-6 .mt-12 {
+        margin-top: 80px !important;
+    }
+
+
+    /* Content Section 9 */
+    .business-man-img-class {
+        width: 200px;
+    }
+    
+    .content-section-9-nextgen-img-class {
+        position: absolute;
+        left: 90px;
+        width: 200px;
+        top: 80px;
+    }
+    
+    .sleeping-man-img-class {
+        width: 200px;
+    }
+    
+    .reduces-bloating-img-class {
+        position: absolute;
+        left: 100px;
+        width: 180px;
+        top: -30px;
+    }
+
+    .bentonite-img-class {
+        width: 250px;
+    }
+
+    .fennel-seed-img-class {
+        width: 250px;
+    }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 400px) and (max-width: 499px)  {
+    /* Banner Section */
+    .banner-left {
+        min-height: 420px !important;
+    }
+
+    /* Content Section 1 */
+    .content-section-1-border {
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    /* Content Section 2 */
+    .content-section-2-left-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-section-2 .p-7 {
+        padding: 15px;
+    }
+
+    .content-section-2 .pt-md-7 {
+        padding-top: 0px !important;
+    }
+
+    .position-md-size-absolute {
+        position: absolute;
+        top: -100px;
+    }
+
+    .positive-thinking-mobile-div {
+        text-align: center;
+    }
+
+
+    /* Content Section 4 */
+    .table-circle-img {
+        width: 280px;
+    }
+
+    /* Content Section 6 */
+    .nextgen-body-cleanse-img-class {
+        position: absolute;
+        left: 50px;
+        z-index: 1;
+        top: -170px;
+        width: 200px;
+    }
+
+    .sleep-img-class {
+        width: 250px;
+        top: -150px;
+    }
+
+    /* Content Section 9 */
+    .business-man-img-class {
+        width: 200px;
+    }
+    
+    .content-section-9-nextgen-img-class {
+        position: absolute;
+        left: 90px;
+        width: 200px;
+        top: 80px;
+    }
+    
+    .sleeping-man-img-class {
+        width: 200px;
+    }
+    
+    .reduces-bloating-img-class {
+        position: absolute;
+        left: 100px;
+        width: 180px;
+        top: -30px;
+    }
+
+    .bentonite-img-class {
+        width: 280px;
+    }
+
+    .fennel-seed-img-class {
+        width: 280px;
+    }
+
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 500px) and (max-width: 767px)  {
+    /* Banner Section */
+    .banner-left {
+        min-height: 550px !important;
+    }
+
+    /* Content Section 1 */
+    .content-section-1-border {
+        border: none !important;
+        border-radius: 0px !important;
+    }
+
+    /* Content Section 2 */
+    .content-section-2-left-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-section-2 .p-7 {
+        padding: 15px;
+    }
+
+    .content-section-2 .pt-md-7 {
+        padding-top: 0px !important;
+    }
+
+    .position-md-size-absolute {
+        position: absolute;
+        top: -100px;
+    }
+
+    .positive-thinking-mobile-class {
+        width: 320px;
+    }
+
+    .mesurement-scale-mobile-class {
+        position: absolute;
+        left: 200px;
+        width: 250px;
+        top: -150px;
+    }
+
+    .positive-thinking-mobile-div {
+        text-align: center;
+    }
+
+    /* Content Section 6 */
+    .nextgen-body-cleanse-img-class {
+        position: absolute;
+        left: 220px;
+        z-index: 1;
+        top: -120px;
+        width: 200px;
+    }
+
+    .sleep-img-class {
+        width: 250px;
+        top: -120px;
+    }
+
+    /* Content Section 9 */
+    .business-man-img-class {
+        width: 200px;
+    }
+    
+    .content-section-9-nextgen-img-class {
+        position: absolute;
+        left: 200px;
+        width: 200px;
+        top: 50px;
+    }
+    
+    .sleeping-man-img-class {
+        width: 200px;
+    }
+    
+    .reduces-bloating-img-class {
+        position: absolute;
+        left: 220px;
+        width: 180px;
+        top: -30px;
+    }
+
+    .bentonite-img-class {
+        width: 320px;
+    }
+
+    .fennel-seed-img-class {
+        width: 320px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px)  {
+    /* Banner Section */
+    .banner-left {
+        min-height: 100% !important;
+    }
+
+    /* Content Section 2 */
+    .content-section-2-left-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-section-2 .p-7 {
+        padding: 15px;
+    }
+
+    .content-section-2 .pt-md-7 {
+        padding-top: 65px !important;
+    }
+
+    /* Content Section 9 */
+    .business-man-img-class {
+        width: 200px;
+    }
+    
+    .content-section-9-nextgen-img-class {
+        position: absolute;
+        left: 150px;
+        width: 200px;
+        top: 50px;
+    }
+    
+    .sleeping-man-img-class {
+        width: 200px;
+    }
+    
+    .reduces-bloating-img-class {
+        position: absolute;
+        left: 200px;
+        width: 180px;
+        top: -30px;
+    }
+
+    /* Content Section 13 */
+    .content-section-13 .mt-13 {
+        margin-top: 0px !important;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
+    .content-section-13 .mt-13 {
+        margin-top: 0px !important;
+    }
+
 }
