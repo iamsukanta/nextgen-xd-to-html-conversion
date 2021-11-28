@@ -293,6 +293,7 @@ body {
     right: 10px;
 }
 
+/* Content Section 14 */
 .content-section-14 {
     background-color: #FAFCFF;
 }
@@ -316,6 +317,22 @@ body {
     .content-section-2-left-box {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .vegan-img-class {
+        width: 100px;
+    }
+
+    .glutten-img-class {
+        width: 100px;
+    }
+
+    .potent-img-class {
+        width: 100px;
+    }
+
+    .content-section-2-left-box h5 {
+        font-size: 14px;
     }
 
     .content-section-2 .p-7 {
@@ -346,17 +363,22 @@ body {
         position: absolute;
         left: 120px;
         z-index: 1;
-        top: -130px;
-        width: 180px;
+        top: -140px;
+        width: 200px;
     }
 
     .sleep-img-class {
         width: 250px;
-        top: -120px;
+        top: -140px;
     }
 
     .content-section-6 .mt-12 {
         margin-top: 80px !important;
+    }
+
+    /* Content Section 8 */
+    .healthy-gut-img-class {
+        width: 250px;
     }
 
 
@@ -383,10 +405,12 @@ body {
         top: -30px;
     }
 
+    /* Content Section 14 */
     .bentonite-img-class {
         width: 250px;
     }
 
+    /* Content Section 15 */
     .fennel-seed-img-class {
         width: 250px;
     }
@@ -439,14 +463,16 @@ body {
         position: absolute;
         left: 50px;
         z-index: 1;
-        top: -170px;
+        top: -150px;
         width: 200px;
     }
 
     .sleep-img-class {
         width: 250px;
-        top: -150px;
+        top: -130px;
     }
+
+    
 
     /* Content Section 9 */
     .business-man-img-class {
@@ -471,10 +497,12 @@ body {
         top: -30px;
     }
 
+    /* Content Section 14 */
     .bentonite-img-class {
         width: 280px;
     }
 
+    /* Content Section 15 */
     .fennel-seed-img-class {
         width: 280px;
     }
@@ -564,10 +592,12 @@ body {
         top: -30px;
     }
 
+    /* Content Section 14 */
     .bentonite-img-class {
         width: 320px;
     }
 
+    /* Content Section 15 */
     .fennel-seed-img-class {
         width: 320px;
     }
@@ -619,6 +649,16 @@ body {
     /* Content Section 13 */
     .content-section-13 .mt-13 {
         margin-top: 0px !important;
+    }
+
+    /* Content Section 14 */
+    .bentonite-img-class {
+        width: 350px;
+    }
+
+    /* Content Section 15 */
+    .fennel-seed-img-class {
+        width: 350px;
     }
 }
 
